@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: #eef;
+}
+
+header {
+  background: #00796b;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+#searchDest {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+}
+
+.destination-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.destination-item {
+  background: white;
+  padding: 10px 20px;
+  border: 1px solid #aaa;
+  width: 300px;
+  text-align: center;
+  font-weight: bold;
+}
